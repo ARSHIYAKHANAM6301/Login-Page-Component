@@ -1,0 +1,149 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login_page_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #625f5f2b;
+}
+.login-left-container {
+    width: 600px;
+    height: 800px;
+    padding: 60px;
+}
+.login-left-container,
+.login-right-container {
+    /* border: 1px solid gray; */
+}
+.img-right {
+    width: 600px;
+    height: 800px;
+    padding: 25px 0;
+}
+.left-heading {
+    font-size: 36px;
+    font-weight: 600;
+    color: #42A7C3;
+}
+.left-copy-write {
+    font-size: 16px;
+    color: #8A8A8A;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+.login-fields-container {
+    margin: 80px auto;
+    width: 300px;
+    
+}
+.login-fields-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+.user-email,
+.user-pass {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+    padding: 12px;
+    font-size: 14px;
+    color: #8A8A8A;
+}
+.login-fields-content h2 {
+    color: #515151;
+    font-size: 20px;
+    font-weight: 600;   
+}
+.login-fields-content h3 {
+    color: #0098EA;
+    font-size: 16px;
+    font-weight: 100;
+}
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    padding: 24px 0;
+}
+.login-btn {
+    background-color: #D0D0D0;
+    color: #ffffff;
+    border: 1px solid #D0D0D0;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.input-fields-container .password-icon {   
+    position: absolute;
+    top: 113px;
+    right: 4px;
+    height: 12px;
+    width: 24px;
+}
+.login-para {
+    font-size: 12px;
+    font-weight: 100;
+    color: #b9b7b7;
+}
+.login-span {
+    color: #0098EA;
+    font-weight: 600;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D0D0D0;
+}
+.content hr {
+    width: 80px;
+    height: 1px;
+    color: #D0D0D0;
+}
+.masuk-dengan-content {
+    font-size: 14px;
+    font-weight: 100;
+}
+.google-btn,
+.facebook-btn {    
+    color: #505050;
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.input-fields-container .google-btn-icon-left,
+.input-fields-container .facebook-btn-icon-left {   
+    /* position: absolute; */
+    /* bottom: 108px; */
+    /* right: 4px; */
+    height: 14px;
+    width: 26px;
+}
+.input-fields-container .google-btn-icon-left {
+    position: absolute;
+    bottom: 107px;
+    left: 100px;
+}
+.input-fields-container .facebook-btn-icon-left {
+    position: absolute;
+    left: 95px;
+    bottom: 38px;
+}
